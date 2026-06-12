@@ -31,7 +31,6 @@ comando porque la configuración vive en archivos versionados, no en clics.
 |---|---|
 | [VALIDACION.md](VALIDACION.md) | Instrucciones paso a paso para validar el laboratorio |
 | [RESPUESTAS.md](RESPUESTAS.md) | Respuestas a las preguntas del laboratorio |
-| [EVIDENCIAS.md](EVIDENCIAS.md) | Registro de actividades con sus capturas |
 | [capturas/](capturas/) | Evidencias en imagen de cada punto |
 
 ## Cómo levantarlo
