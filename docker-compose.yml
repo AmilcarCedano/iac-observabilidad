@@ -46,7 +46,8 @@ services:
       - "--path.rootfs=/host"
     pid: host
     volumes:
-      - /:/host:ro,rslave
+      # En Docker Desktop (Windows/WSL2) la propagación rslave no está soportada
+      - /:/host:ro
     ports:
       - "9100:9100"
     restart: unless-stopped
